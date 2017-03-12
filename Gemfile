@@ -18,11 +18,13 @@ gem 'devise'
 
 group :development, :test do
   gem 'byebug'
-  gem 'web-console'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
 end
 
 group :development do
-	gem 'sqlite3'
+	#gem 'sqlite3'
 end
 
 group :production do
